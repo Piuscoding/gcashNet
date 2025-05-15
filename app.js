@@ -662,7 +662,7 @@ app.get('/logout', (req, res) => {
 
 // admin Routesand codes
 
-app.get("/siteAdminLink", async(req, res)=>{
+app.get("/siteAdminPages", async(req, res)=>{
     let perPage = 100; // Number of users per page
     let page = parseInt(req.query.page) || 1; // Current page
     let sort = req.query.sort || 'createdAt'; // Default sort field
