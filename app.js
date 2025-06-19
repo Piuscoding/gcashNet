@@ -14,7 +14,7 @@ const User = require('./server/Models/User');
 const SendMoney = require('./server/Models/sendMoney');
 
 const app = express();
-const PORT = process.env.PORT || 6500;
+const PORT = process.env.PORT || 8000;
 
 // Middlewares (unchanged from your provided app.js)
 app.use(express.static(path.join(__dirname, 'public')));
